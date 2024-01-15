@@ -6,10 +6,9 @@
 # │  specific packageId is also provided in this file.                                             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-
-id: my-ig
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example
+id: training
+canonical: http://openhie.org/fhir/training
+url: http://openhie.org/fhir/training/ImplementationGuide/training
 name: ExampleIG
 title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
 description: Example IG exercises many of the fields in a SUSHI configuration.
@@ -19,7 +18,7 @@ date: 2020-02-26
 version: 1.0.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
-# it can be a single item OR and array here, but the current tooling 
+# it can be a single item OR and array here, but the current tooling
 # only supports one FHIR version per Implementation Guide
 fhirVersion: 4.0.1
 
@@ -37,7 +36,7 @@ releaseLabel: STU1
 # as IG.publisher.  The contact details and/or additional publishers
 # will be translated into IG.contact values.
 publisher:
-  name: My Organization 
+  name: My Organization
   url: http://example.com/committees
   email: my-group@example.com
 
@@ -54,7 +53,6 @@ contact:
 
 #jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
-
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -181,7 +179,6 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 # If set to true, no IG related content will be generated.
 # The default value for this property is false.
 FSHOnly: false
-
 # When set to true, the "short" and "definition" field on the root element of an Extension will
 # be set to the "Title" and "Description" of that Extension. Default is true.
 #applyExtensionMetadataToRoot: false

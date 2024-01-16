@@ -9,7 +9,7 @@ Description: "First Patient profile"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.description = "Slice based on the type of the identifier"
 * identifier ^slicing.ordered = false
-*identifier contains
+* identifier contains
    MR 1..1 and
    NID 0..1
 * identifier[MR].value 1..1

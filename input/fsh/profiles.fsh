@@ -20,7 +20,8 @@ Description: "First Patient profile"
 * identifier[MR].type.text = "Patient folder number at the facility"
 * identifier[NID].value 1..1
 * identifier[NID].system = "http://terminology.hl7/CodeSystem/nid-example" (exactly)
-* contact 0..*
+* contact 0..* MS
+* contact ^definition = "Contact must be supported for learning purpose"
 * contact.name.given 1..*
 * contact.name.family 1..1
 * contact.telecom 0..*
@@ -28,9 +29,11 @@ Description: "First Patient profile"
 * maritalStatus 1..1
 * gender 1..1
 * birthDate 1..1
-* telecom 0..*
+* telecom 0..* MS
+* telecom ^definition = "Telecom must be supported just for learning purpose"
 * name.family 1..1
-* name.given 0..*
+* name.given 0..* MS
+* name.given ^definition = "Given name must be supported just for learning purpose"
 * address 0..*
 * address.city 1..1
 * address.line 1..1

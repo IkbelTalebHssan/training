@@ -1,0 +1,55 @@
+{
+  "resourceType" : "Patient",
+  "id" : "HIVPatientExample",
+  "meta" : {
+    "profile" : ["http://openhie.org/fhir/training/StructureDefinition/hiv-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Ikbel Taleb Hssan </b> female, DoB: 1995-05-08 ( Patient folder number at the facility:\u00a0MRN-123)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus D}\">Marriage contract has been declared dissolved and inactive</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\">id:\u00a0NID-123</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: <a href=\"Organization-OrganizationExample.html\">Organization/OrganizationExample</a> &quot;Example&quot;</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Capture a client population status\"><a href=\"StructureDefinition-key-population-status.html\">Client Key Population Status:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://openhie.org/fhir/training/CodeSystem/cs-client-key-population-status General-Population}\">HIV key population</span></li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://openhie.org/fhir/training/StructureDefinition/key-population-status",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://openhie.org/fhir/training/CodeSystem/cs-client-key-population-status",
+        "code" : "General-Population",
+        "display" : "General Population"
+      }],
+      "text" : "HIV key population"
+    }
+  }],
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7/CodeSystem/hiv-example",
+        "code" : "MR",
+        "display" : "Patient Medical Record Number"
+      }],
+      "text" : "Patient folder number at the facility"
+    },
+    "system" : "http://terminology.hl7/CodeSystem/mrn-example",
+    "value" : "MRN-123"
+  },
+  {
+    "system" : "http://terminology.hl7/CodeSystem/nid-example",
+    "value" : "NID-123"
+  }],
+  "name" : [{
+    "family" : "Taleb Hssan",
+    "given" : ["Ikbel"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1995-05-08",
+  "maritalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code" : "D",
+      "display" : "Divorced"
+    }],
+    "text" : "Marriage contract has been declared dissolved and inactive"
+  },
+  "managingOrganization" : {
+    "reference" : "Organization/OrganizationExample"
+  }
+}

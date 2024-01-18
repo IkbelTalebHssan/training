@@ -1,0 +1,19 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://openhie.org/fhir/training/ValueSet/vs-client-key-population-status",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "VSClientKeyPopulationStatus",
+      "title" : "Client Key Population Status",
+      "description" : "A list of keys to determine a client population status",
+      "systems" : [
+        "http://openhie.org/fhir/training/CodeSystem/cs-client-key-population-status",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-key-population-status.html" : "Client Key Population Status"
+    }
+  ]
+}

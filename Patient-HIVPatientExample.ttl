@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.org/fhir/training/Patient/HIVPatientExample> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "HIVPatientExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://openhie.org/fhir/training/StructureDefinition/hiv-patient"^^xsd:anyURI ;
+       fhir:link <http://openhie.org/fhir/training/StructureDefinition/hiv-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Ikbel Taleb Hssan </b> female, DoB: 1995-05-08 ( Patient folder number at the facility: MRN-123)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus D}\">Marriage contract has been declared dissolved and inactive</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Id:</td><td colspan=\"3\">id: NID-123</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: <a href=\"Organization-OrganizationExample.html\">Organization/OrganizationExample</a> &quot;Example&quot;</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Capture a client population status\"><a href=\"StructureDefinition-key-population-status.html\">Client Key Population Status:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://openhie.org/fhir/training/CodeSystem/cs-client-key-population-status General-Population}\">HIV key population</span></li></ul></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://openhie.org/fhir/training/StructureDefinition/key-population-status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://openhie.org/fhir/training/CodeSystem/cs-client-key-population-status"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "General-Population" ] ;
+         fhir:display [ fhir:v "General Population" ]
+       ] ) ;
+       fhir:text [ fhir:v "HIV key population" ]
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7/CodeSystem/hiv-example"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "MR" ] ;
+         fhir:display [ fhir:v "Patient Medical Record Number" ]
+       ] ) ;
+       fhir:text [ fhir:v "Patient folder number at the facility" ]
+     ] ;
+     fhir:system [ fhir:v "http://terminology.hl7/CodeSystem/mrn-example"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "MRN-123" ]
+  ] [
+     fhir:system [ fhir:v "http://terminology.hl7/CodeSystem/nid-example"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "NID-123" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Taleb Hssan" ] ;
+     fhir:given ( [ fhir:v "Ikbel" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "1995-05-08"^^xsd:date] ; # 
+  fhir:maritalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "D" ] ;
+       fhir:display [ fhir:v "Divorced" ]
+     ] ) ;
+     fhir:text [ fhir:v "Marriage contract has been declared dissolved and inactive" ]
+  ] ; # 
+  fhir:managingOrganization [
+     fhir:link <http://openhie.org/fhir/training/Organization/OrganizationExample> ;
+     fhir:reference [ fhir:v "Organization/OrganizationExample" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

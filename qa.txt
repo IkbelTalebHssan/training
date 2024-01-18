@@ -1,0 +1,67 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 0, warn = 1, info = 0
+IG Publisher Version: 1.5.13
+Generated Thu Jan 18 10:54:08 UTC 2024. FHIR version 4.0.1 for training#1.0.0 (canonical = http://openhie.org/fhir/training)
+ Build Errors : 43 / 0 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-cs-client-key-population-status : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-training : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Organization-OrganizationExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-HIVPatientExample : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-patient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-key-population-status : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-client-key-population-status : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: /github/workspace/output/CodeSystem-cs-client-key-population-status-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-client-key-population-status.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-client-key-population-status.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-client-key-population-status.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-client-key-population-status.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-cs-client-key-population-status.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Organization-OrganizationExample.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Organization-OrganizationExample.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Organization-OrganizationExample.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Organization-OrganizationExample.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Organization-OrganizationExample.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Patient-HIVPatientExample.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Patient-HIVPatientExample.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Patient-HIVPatientExample.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Patient-HIVPatientExample.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/Patient-HIVPatientExample.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 151, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 151, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-hiv-patient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 151, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-key-population-status-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-key-population-status-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-key-population-status-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-key-population-status.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-key-population-status.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-key-population-status.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 151, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-key-population-status.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 151, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-key-population-status.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 151, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-client-key-population-status-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-client-key-population-status.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 147, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-client-key-population-status.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-client-key-population-status.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-client-key-population-status.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-client-key-population-status.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 15: The link 'myFirstPage.xml' for "My First Page" cannot be resolved
+== fsh-generated/resources/CodeSystem-cs-client-key-population-status.json ==
+== fsh-generated/resources/ImplementationGuide-training.json ==
+== fsh-generated/resources/Organization-OrganizationExample.json ==
+== fsh-generated/resources/Patient-HIVPatientExample.json ==
+WARNING: Patient/HIVPatientExample: Patient.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://terminology.hl7/CodeSystem/hiv-example' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-hiv-patient.json ==
+== fsh-generated/resources/StructureDefinition-key-population-status.json ==
+== fsh-generated/resources/ValueSet-vs-client-key-population-status.json ==

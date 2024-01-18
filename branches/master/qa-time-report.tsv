@@ -1,0 +1,8 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-training.json	3352	-	0	0	0	0	0	0	4	100	0	0	0	0	0	0	0	0	0	0	88	76	0	0	0	9	0	0
+fsh-generated/resources/CodeSystem-cs-client-key-population-status.json	542	8	0	0	0	0	0	0	0	19	0	0	0	0	0	0	0	0	0	0	14	1501	0	0	0	0	0	0
+fsh-generated/resources/Organization-OrganizationExample.json	89	8	1	0	0	0	0	0	0	9	0	0	0	0	0	0	0	1	0	0	4	10	0	0	0	0	0	0
+fsh-generated/resources/Patient-HIVPatientExample.json	1636	17	0	0	0	0	0	0	0	267	0	0	0	0	0	0	0	0	0	0	11	19	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-hiv-patient.json	5979	24	0	0	0	0	0	311	0	305	0	0	1	0	0	0	0	2	0	0	623	2078	0	0	0	20	0	2
+fsh-generated/resources/StructureDefinition-key-population-status.json	1689	16	0	0	0	0	0	31	0	31	0	0	0	0	0	0	0	0	0	0	52	152	0	0	0	3	0	0
+fsh-generated/resources/ValueSet-vs-client-key-population-status.json	1248	10	0	0	0	0	0	0	1	224	0	0	0	0	0	0	0	0	0	0	12	3529	0	0	0	0	0	0

@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+http://openhie.org/fhir/training/CodeSystem/cs-client-key-population-status,1.0.0,active,,CSClientKeyPopulationStatus,Client Key Population Status,"A list of keys to determine a client population status",

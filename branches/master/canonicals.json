@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "cs-client-key-population-status",
+    "type" : "CodeSystem",
+    "url" : "http://openhie.org/fhir/training/CodeSystem/cs-client-key-population-status",
+    "version" : "1.0.0",
+    "name" : "CSClientKeyPopulationStatus"
+  },
+  {
+    "id" : "training",
+    "type" : "ImplementationGuide",
+    "url" : "http://openhie.org/fhir/training/ImplementationGuide/training",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "hiv-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/training/StructureDefinition/hiv-patient",
+    "version" : "1.0.0",
+    "name" : "HIVPatient"
+  },
+  {
+    "id" : "key-population-status",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.org/fhir/training/StructureDefinition/key-population-status",
+    "version" : "1.0.0",
+    "name" : "ClientKeyPopulationStatus"
+  },
+  {
+    "id" : "vs-client-key-population-status",
+    "type" : "ValueSet",
+    "url" : "http://openhie.org/fhir/training/ValueSet/vs-client-key-population-status",
+    "version" : "1.0.0",
+    "name" : "VSClientKeyPopulationStatus"
+  }
+]

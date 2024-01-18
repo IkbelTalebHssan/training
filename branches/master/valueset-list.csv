@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://openhie.org/fhir/training/ValueSet/vs-client-key-population-status,1.0.0,active,,VSClientKeyPopulationStatus,Client Key Population Status,"A list of keys to determine a client population status",,"SCT,Internal"

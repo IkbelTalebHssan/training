@@ -18,6 +18,8 @@ Description: "HIV Patient example"
 * name.family = "Taleb Hssan"
 * name.given = "Ikbel"
 * managingOrganization = Reference(OrganizationExample)
+* extension[KPS].valueCodeableConcept.text = "HIV key population"
+* extension[KPS].valueCodeableConcept.coding = CSClientKeyPopulationStatus#General-Population "General Population"
 
 Instance: OrganizationExample
 InstanceOf: Organization

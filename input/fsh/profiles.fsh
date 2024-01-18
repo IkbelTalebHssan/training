@@ -1,3 +1,5 @@
+Alias: $SCT = http://snomed.info/sct
+
 Profile: HIVPatient
 Parent: Patient
 Id: hiv-patient
@@ -41,3 +43,14 @@ Description: "First Patient profile"
 * address.state 1..1
 * address.country 1..1
 * managingOrganization 1..1
+* extension contains ClientKeyPopulationStatus named KPS 1..1 MS
+Extension: ClientKeyPopulationStatus 
+Id: key-population-status
+Title: "Client Key Population Status"
+Description: "Capture a client population status"
+* value[x] 1..1
+* value[x] only CodeableConcept
+* valueCodeableConcept from VSClientKeyPopulationStatus (required)
+* ^context[0].type = #element
+* ^context[0].expression = "Patient"
+* ^purpose = "This extension is defined to present a client population status"
